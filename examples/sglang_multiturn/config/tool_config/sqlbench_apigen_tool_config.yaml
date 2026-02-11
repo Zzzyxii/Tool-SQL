@@ -1,0 +1,34 @@
+tools:
+  - class_name: "verl.tools.sqlbench_apigen.sqlexe.SQLExeTool"
+    tool_schema:
+      type: "function" #
+      function:
+        name: "sqlexe"
+        description: "A tool for executing SQL queries on the internal database and return results. Note: Results are limited to 100 rows per query."
+        parameters:
+          type: "object"
+          properties:
+            query:
+              type: "string"
+              description: "SQL query string to execute"
+          required: ["query"]
+    config:
+      db_root: "verl/tools/sqlbench_apigen/data"
+      timeout: 5
+
+  - class_name: "verl.tools.sqlbench_apigen.get_dbschema.GetDBSchemaTool"
+    tool_schema:
+      type: "function" #
+      function:
+        name: "getdbschema"
+        description: "A tool for getting the database schema from the current internal database according to the db_path in data"
+        parameters:
+          type: "object"
+          properties:
+            query:
+              type: "string"
+              description: "The Database name to get the schema for"
+          required: ["query"]
+    config:
+      data_root: "verl/tools/sqlbench_apigen/data"
+      timeout: 5

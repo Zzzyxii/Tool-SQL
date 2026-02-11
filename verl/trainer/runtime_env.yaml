@@ -1,0 +1,17 @@
+# working_dir: ./
+# excludes: ["/.git/", "/jdk-11.0.12/", "/wandb_log/", "/tensorboard_log/", "/afo-base-0.0.1-SNAPSHOT.jar", "/afo-dist-user-files.tar.gz"]
+# env_vars:
+#   TORCH_NCCL_AVOID_RECORD_STREAMS: "1"
+#   # VLLM_ATTENTION_BACKEND: "FLASHATTN"
+#   # If you are using vllm<=0.6.3, you might need to set the following environment variable to avoid bugs:
+#   # VLLM_ATTENTION_BACKEND: "XFORMERS"
+
+working_dir: ./
+excludes: [".git/**", "*.log", "*.core", "core.*", "__pycache__/**", "*.pyc", "data/**", "CKPT/**", "log/**","jdk-11.0.12/**","wandb_log/**","tensorboard_log/**","afo-base-0.0.1-SNAPSHOT.jar","afo-dist-user-files.tar.gz"]
+env_vars:
+  PYTHONPATH: "/m2/slz/zyx/MUA-RL"
+  PYTHONUNBUFFERED: "1"
+  TORCH_NCCL_AVOID_RECORD_STREAMS: "1"
+  # VLLM_ATTENTION_BACKEND: "FLASHATTN"
+  # If you are using vllm<=0.6.3, you might need to set the following environment variable to avoid bugs:
+  # VLLM_ATTENTION_BACKEND: "XFORMERS"
