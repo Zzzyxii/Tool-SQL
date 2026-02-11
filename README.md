@@ -8,8 +8,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.xxxxx-b31b1b?style=for-the-badge)]()
 [![GITHUB](https://img.shields.io/badge/Github-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zzzyxii/Tool-SQL)
-[![Model](https://img.shields.io/badge/Model-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)]()
-[![Dataset](https://img.shields.io/badge/Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)]()
+[![Model](https://img.shields.io/badge/Model-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Fortunaa/Tool-SQL)
+[![Dataset](https://img.shields.io/badge/Dataset-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Fortunaa/Tool-SQL-Data)
 
 </div>
 
